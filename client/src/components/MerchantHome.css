@@ -1,0 +1,44 @@
+.merchant-home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 60px);
+    background-color: #e1f5fe;
+    padding: 20px;
+  }
+  
+  .merchant-home-title {
+    font-size: 32px;
+    color: #0d47a1;
+    margin-bottom: 20px;
+  }
+  
+  .merchant-home-description {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 30px;
+  }
+  
+  .merchant-home-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .merchant-home-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #0d47a1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .merchant-home-button:hover {
+    background-color: #1565c0;
+  }
